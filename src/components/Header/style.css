@@ -1,0 +1,29 @@
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#header {
+    position: relative;
+}
+
+#header-image {
+    height: 25em;
+    /* opacity: .5; */
+}
+
+#text {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    color: #9575cd;
+}
+
+h1 {
+    font-size: 75pt;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 24pt;
+}
