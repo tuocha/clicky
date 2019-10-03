@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import NavBar from "./components/NavBar";
 import Header from "./components/Header";
+import Wrapper from "./components/Wrapper";
 import PlayerCard from "./components/PlayerCard";
 import players from "./players.json";
 import "./App.css";
 
 class App extends Component {
-  // Setting this.state.friends to the friends json array
+  // Setting this.state.friends to the json array
   state = {
     players,
     score: 0,
@@ -51,22 +52,17 @@ class App extends Component {
         <NavBar score={this.state.score} highscore={this.state.highscore} />
 
         <Header />
-
-        <div className="container">
-          <div className="row">
-            <div className="col s2 m3 l2">
-              {this.state.players.map(player => (
-                <PlayerCard
-                  id={player.id}
-                  key={player.id}
-                  image={player.image}
-                  name={player.name}
-                  clicker={this.clicker}
-                />
-              ))}
-            </div>
-          </div>
-        </div>
+        <Wrapper>
+          {this.state.players.map(player => (
+            <PlayerCard
+              id={player.id}
+              key={player.id}
+              image={player.image}
+              name={player.name}
+              clicker={this.clicker}
+            />
+          ))}
+        </Wrapper>
       </div>
     );
   }
