@@ -1,64 +1,76 @@
 [
     {
+        "id" : 1,
         "name": "chandelure",
         "image" : "https://cdn.bulbagarden.net/upload/6/65/609Chandelure.png",
-        "count" : 0
+        "count" : false
     },
     {
+        "id" : 2,
         "name": "haunter",
         "image" : "https://cdn.bulbagarden.net/upload/6/62/093Haunter.png",
-        "count" : 0
+        "count" : false
 
     },
     {
+        "id" : 3,
         "name": "sableye",
         "image" : "https://cdn.bulbagarden.net/upload/d/d3/302Sableye.png",
-        "count" : 0
+        "count" : false
     },
     {
+        "id" : 4,
         "name": "litwick",
         "image" : "https://cdn.bulbagarden.net/upload/thumb/8/8e/607Litwick.png/600px-607Litwick.png",
-        "count" : 0
+        "count" : false
     },
     {
+        "id" : 5,
         "name": "shuppet",
         "image" : "https://cdn.bulbagarden.net/upload/thumb/4/4b/353Shuppet.png/600px-353Shuppet.png",
-        "count" : 0
+        "count" : false
     },
     {
+        "id" : 6,
         "name": "duskull",
         "image" : "https://cdn.bulbagarden.net/upload/thumb/e/e2/355Duskull.png/600px-355Duskull.png",
-        "count" : 0
+        "count" : false
     },
     {
+        "id" : 7,
         "name": "misdreavus",
         "image" : "https://cdn.bulbagarden.net/upload/thumb/b/be/200Misdreavus.png/600px-200Misdreavus.png",
-        "count" : 0
+        "count" : false
     },
     {
+        "id" : 8,
         "name": "mimikyu",
         "image" : "https://cdn.bulbagarden.net/upload/thumb/9/9b/778Mimikyu.png/600px-778Mimikyu.png",
-        "count" : 0
+        "count" : false
     },
     {
+        "id" : 9,
         "name": "shedinja",
         "image" : "https://cdn.bulbagarden.net/upload/thumb/5/59/292Shedinja.png/600px-292Shedinja.png",
-        "count" : 0
+        "count" : false
     },
     {
+        "id" : 10,
         "name": "frillish",
         "image" : "https://cdn.bulbagarden.net/upload/thumb/8/88/592Frillish.png/600px-592Frillish.png",
-        "count" : 0
+        "count" : false
     },
     {
+        "id" : 11,
         "name": "drifloon",
         "image" : "https://cdn.bulbagarden.net/upload/thumb/e/eb/425Drifloon.png/600px-425Drifloon.png",
-        "count" : 0
+        "count" : false
     },
     {
+        "id" : 12,
         "name": "phantump",
         "image" : "https://cdn.bulbagarden.net/upload/thumb/7/72/708Phantump.png/250px-708Phantump.png",
-        "count" : 0
+        "count" : false
     }
 
 ]
